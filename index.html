@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="None">
+        
+        
+        <link rel="shortcut icon" href="img/favicon.ico">
+        <title>Open Zebra</title>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/fontawesome.min.css" rel="stylesheet">
+        <link href="css/brands.min.css" rel="stylesheet">
+        <link href="css/solid.min.css" rel="stylesheet">
+        <link href="css/v4-font-face.min.css" rel="stylesheet">
+        <link href="css/base.css" rel="stylesheet">
+        <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" >
+        <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" disabled>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script> 
+    </head>
+
+    <body class="homepage">
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href=".">Open Zebra</a>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+
+                    <ul class="nav navbar-nav ms-md-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-bs-level="1"><a href="#welcome-to-openzebra" class="nav-link">Welcome to OpenZebra</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-bs-level="2"><a href="#why-zebrafish-larvae" class="nav-link">Why Zebrafish Larvae?</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#purpose-of-this-site" class="nav-link">Purpose of This Site</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-bs-level="1"><a href="#projects" class="nav-link">Projects</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-bs-level="2"><a href="#agarose-stamping-method" class="nav-link">Agarose Stamping Method</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#zebrafish-larvae-interface-zli" class="nav-link">Zebrafish Larvae Interface (ZLI)</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="welcome-to-openzebra">Welcome to OpenZebra</h1>
+<p><strong>Accessible Tools for Zebrafish Larvae Fixation, Stimulation, and Tracking</strong></p>
+<p>OpenZebra is a growing collection of open-source tools developed by members of the <a href="https://jung.lab.uic.edu/">Biomicrosystems (Jung) Lab</a> at UIC to support accessible, reproducible, and affordable research using zebrafish and zebrafish larvae. This site serves as a central hub for all OpenZebra projects — including device designs, software repositories, experimental protocols, and instructional resources.</p>
+<h2 id="why-zebrafish-larvae">Why Zebrafish Larvae?</h2>
+<p>Zebrafish larvae offer a rare balance in neuroscience research: they’re genetically tractable, optically transparent, and small enough to study entire neural circuits in vivo. But working with them — especially at early developmental stages — often comes with technical and logistical challenges. Many commercial systems are expensive, overengineered, or difficult to adapt to new experiments. What began as a few isolated tools to help with my own experiments has since become a broader effort to make zebrafish research more modular, adaptable, and accessible.</p>
+<h2 id="purpose-of-this-site">Purpose of This Site</h2>
+<p>The goal of this site is to lower the barrier to entry for zebrafish-based neuroscience by sharing practical tools that are easy to build, modify, and understand. The projects here are documented (if applicable) with:</p>
+<ul>
+<li>Links to GitHub repositories</li>
+<li>Assembly instructions and CAD files</li>
+<li>Example use cases and data</li>
+<li>Teaching and outreach adaptations when available</li>
+</ul>
+<p>I’ve tried to design these tools with the mindset that science should be both rigorous and approachable — not hidden behind proprietary walls or unnecessarily complex infrastructure. If you're a student, educator, researcher, or enthusiast, I hope you find something here that helps you move forward.</p>
+<h1 id="projects">Projects</h1>
+<h2 id="agarose-stamping-method">Agarose Stamping Method</h2>
+<p><strong>Standardized Immobilization for Zebrafish Larvae</strong></p>
+<p>The agarose stamping method involves 3d-printable, reusable mold that creates patterned micro-wells in agarose gel for consistent and high-throughput immobilization of zebrafish larvae. It was developed to streamline the tedious and variable process of manually embedding larvae for imaging, stimulation, or behavior experiments. By changing the workflow from: agarose preparation -&gt; larva alignment -&gt; larva embedding -&gt; post processing into: agarose stamp device preparation -&gt; larva placement, the agarose stamping method improves reproducibility, reduces handling time, and is easy to teach or scale.</p>
+<p>Links: <a href="https://jjutoy2.github.io/Agarose-Stamping-Device/">Repository / CAD Files</a> • [Protocol Document 🚧] • [Preprint 🚧]</p>
+<h2 id="zebrafish-larvae-interface-zli">Zebrafish Larvae Interface (ZLI)</h2>
+<p><strong>A Modular Platform for Real-Time Stimulation and Tracking</strong></p>
+<p>ZLI is a flexible, modular, open-source platform for conducting sensorimotor experiments in zebrafish larvae. It supports real-time tracking, stimulus delivery (e.g., optokinetic), and — when desired — closed-loop control. The system is designed for modular use: tracking and stimulation can operate independently or in tandem, allowing researchers to adapt it to a variety of behavioral or neurophysiological paradigms. The platform is optimized for use with the agarose stamping method, which provides stable and reproducible animal positioning for high-quality data collection.
+Links: <a href="https://github.com/JJutoy2/Zebrafish-Larva-Interface/">Repository / Codebase /Example Data</a> • [Hardware Guide🚧] • <a href="https://doi.org/10.3389/fnins.2025.1593930">Manuscript</a></p></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script>
+            var base_url = ".",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="js/base.js"></script>
+        <script src="search/main.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
+
+<!--
+MkDocs version : 1.6.1
+Build Date UTC : 2025-07-15 05:15:06.031208+00:00
+-->
