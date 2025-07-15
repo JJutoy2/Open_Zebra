@@ -1,3 +1,5 @@
 site_name: Open Zebra
 theme:
   name: mkdocs
+  analytics:
+    gtag: G-VKFRV51JJR
